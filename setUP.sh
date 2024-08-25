@@ -6,8 +6,13 @@ sudo apt update && sudo apt upgrade -y
 # Install Git
 sudo apt-get install -y git
 
+git config --global user.email "fazalkadivar21@gmail.com"
+git config --global user.name "fazalkadivar21"
+
 # Install Zsh
 sudo apt install -y zsh
+
+sudo apt install curl
 
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
