@@ -5,6 +5,7 @@ sudo apt update && sudo apt upgrade -y
 
 # Install Git
 sudo apt-get install -y git
+sudo apt install preload
 
 git config --global user.email "fazalkadivar21@gmail.com"
 git config --global user.name "fazalkadivar21"
